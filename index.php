@@ -12,65 +12,62 @@
     <link rel="stylesheet" href="<?php bloginfo("template_directory");?>/style.css">
 </head>
 
-
 <body>
-<!--==============================header=================================-->
-
+<!--==============================Header-1=================================-->
 <header class="navegador-menu">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-		        <div class="container">
-			        <div class="navbar-header">
-                      <!--aqui contenido-->
-                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-menu"></span>
-                        </button>
-                    </div><!--cierre de navbar header-->
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-menu"></span>
+                </button>
+            </div><!--cierre de navbar header-->
                     
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                          <li><a href="<?php bloginfo("template_directory");?>/index.html">Home</a></li>
-                          <li><a href="#sobre-puno">Sobre Puno</a></li>
-                          <li><a href="#destinos">Destinos</a></li>
-                          <li><a href="#comentar">Comentar</a></li>
-                          <li><a href="#contactanos">Contàctanos</a></li>
-                        </ul>
-                    </div><!--cierre de collapse-->
-                </div><!--cierre de container-->
-            </nav>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="<?php bloginfo("template_directory");?>/index.html">Home</a></li>
+                    <li><a href="#sobre-puno">Sobre Puno</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#comentar">Comentar</a></li>
+                    <li><a href="#contactanos">Contàctanos</a></li>
+                </ul>
+            </div><!--cierre de collapse-->
+        </div><!--cierre de container-->
+    </nav>
 </header>
-    
+<!--==============================Header-2=================================-->   
 <header id="header" class="navegador-menu-2">
-      <div class="container">
+    <div class="container">
         <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="Grill point" src="<?php bloginfo("template_directory");?>/images/SmUByRQK.gif"></a></h1>
-      </div><!--cierre de container -->
-      <div class="menuheader">
-          <div class="container">
+    </div><!--cierre de container -->
+    <div class="menuheader">
+        <div class="container">
             <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
                 <ul class="nav sf-menu">
-                  <li class="active"><a href="index.html">home</a>
-                    <ul>
-                      <li><a href="#">info</a></li>
-                      <li><a href="#">profile</a></li>
-                      <li><a class="last" href="#">news</a>
+                    <li class="active"><a href="index.html">home</a>
                         <ul>
-                           <li><a href="#">fresh</a></li>
-                           <li><a class="last" href="#">archive</a></li>                       
-                        </ul>
-                      </li>
-                   </ul>
-                  </li>
-                   <li><a href="#sobre-puno">Sobre Puno</a></li>
-                   <li><a href="#destinos">Destinos</a></li>
-                  <li><a href="#comentar">Comentar</a></li>
-                  <li><a href="#contactanos">Contàctanos</a></li>
+                            <li><a href="#">info</a></li>
+                            <li><a href="#">profile</a></li>
+                            <li><a class="last" href="#">news</a>
+                            <ul>
+                               <li><a href="#">fresh</a></li>
+                               <li><a class="last" href="#">archive</a></li>                       
+                            </ul>
+                          </li>
+                       </ul>
+                    </li>
+                    <li><a href="#sobre-puno">Sobre Puno</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#comentar">Comentar</a></li>
+                    <li><a href="#contactanos">Contàctanos</a></li>
                 </ul>
             </nav>
           </div>
       </div>
 </header>
-<!-----------------------------------------------------section hero---------------------------------------------------->
+<!--==============================Hero=================================-->
 	<section id="hero">
 	    <div class="container">
 	       <div class="sombra">
@@ -85,22 +82,18 @@
     <!--==============================row1=================================-->
         <div class="row_1">
             <div class="container">
-                <p class="title1">Bienvenidos!</p>
+                <p class="title1"><?php the_title() ?></p>
                 <p class="title2">Puno es sin lugar a dudas uno de los destinos más atractivos del Perú y uno de los más interesantes en el continente: pocas ciudades tienen el privilegio de ubicarse a orillas de una maravilla de la naturaleza como el Lago Titicaca, el lago navegable más alto del mundo a más de 3800 msnm. <br> Puno es considerada como la Capital Folklórica del Perú y de América, Puno es inmensamente rica en danzas, música, costumbres y leyendas, sus danzas superan las 350. Puno es célebre por lo variado y colorido de su folklore, sin duda el más rico y deslumbrante del continente, cuya máxima expresión es la Fiesta de la Virgen de la Candelaria, que se realiza en febrero.</p>
                 <a href="#sobre-puno" class="btn btn-default btn-lg btn1">Màs</a>
             </div>
         </div>
-	
-<!-----------------------------section documental----------------------------------------->
+<!--==============================Seccion Documental=================================-->
         <section id="sobre-puno">
             <div class="container">
                 <h2 class="text-center">Sobre Puno</h2><br>
                 <div class="row">
                     <div class="col-md-6">
-                        <p>
-    Se emplaza sobre la meseta andina, la ciudad de Puno está dominada por la presencia del Lago Titicaca, lugar sagrado de los incas y poblado de islas naturales y artificiales del Perú. Puno posee sitios que atraen el turismo cada año con arqueológicos prehispánicos de construcciones circulares llamadas desde su origen chullpas. Sus iglesias se caracterizan por una marcada arquitectura colonial. Es un pueblo orgulloso de su pasado quechua y aymara de tradición folclórica que se desborda cada año en danzas y ritos durante la Festividad Virgen María de la Candelaria. <br>
-    Puno es leyenda, fiesta multicolor, poblado de islas naturales y artificiales <br>
-    Ubicación: Se ubica en la sierra sur del Perú, comparte frontera con Bolivia. Tiene un relieve básicamente plano debido a que buena parte del territorio se encuentra en la meseta del Collao.</p>
+                        <p>Se emplaza sobre la meseta andina, la ciudad de Puno está dominada por la presencia del Lago Titicaca, lugar sagrado de los incas y poblado de islas naturales y artificiales del Perú. Puno posee sitios que atraen el turismo cada año con arqueológicos prehispánicos de construcciones circulares llamadas desde su origen chullpas. Sus iglesias se caracterizan por una marcada arquitectura colonial. Es un pueblo orgulloso de su pasado quechua y aymara de tradición folclórica que se desborda cada año en danzas y ritos durante la Festividad Virgen María de la Candelaria. <br> Puno es leyenda, fiesta multicolor, poblado de islas naturales y artificiales <br> Ubicación: Se ubica en la sierra sur del Perú, comparte frontera con Bolivia. Tiene un relieve básicamente plano debido a que buena parte del territorio se encuentra en la meseta del Collao.</p>
                     </div><!--cierre de col-md-6-->
 
                     <div class="col-md-6">
@@ -115,8 +108,7 @@
                 </div><!--cierre de row-->
             </div><!--cierre de container-->
         </section>
-
-    <!--==============================row2=================================-->
+<!--==============================row2=================================-->
         <section id="destinos">
             <div class="row_2">
                 <div class="container"><br>
