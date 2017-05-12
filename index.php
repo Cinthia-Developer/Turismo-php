@@ -15,11 +15,11 @@
 <body>
 <!--==============================header=================================-->
 
-	        <nav class="navbar navbar-inverse navbar-fixed-top navegador-menu">
+<header class="navegador-menu">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
 		        <div class="container">
 			        <div class="navbar-header">
                       <!--aqui contenido-->
-                      <img src="<?php bloginfo("template_directory");?>/images/4704SiSZ.gif" width="150px" alt="">
                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -30,7 +30,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                           <li><a href="<?php bloginfo("template_directory");?>/index.html">Home</a></li>
-                          <li><a href="<?php bloginfo("template_directory");?>/#sobre-puno">Sobre Puno</a></li>
+                          <li><a href="#sobre-puno">Sobre Puno</a></li>
                           <li><a href="#destinos">Destinos</a></li>
                           <li><a href="#comentar">Comentar</a></li>
                           <li><a href="#contactanos">Contàctanos</a></li>
@@ -38,10 +38,11 @@
                     </div><!--cierre de collapse-->
                 </div><!--cierre de container-->
             </nav>
+</header>
     
 <header id="header" class="navegador-menu-2">
       <div class="container">
-        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="Grill point" src="images/4704SiSZ.gif"></a></h1>
+        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="Grill point" src="<?php bloginfo("template_directory");?>/images/SmUByRQK.gif"></a></h1>
       </div><!--cierre de container -->
       <div class="menuheader">
           <div class="container">
@@ -85,7 +86,7 @@
             <div class="container">
                 <p class="title1">Bienvenidos!</p>
                 <p class="title2">Puno es sin lugar a dudas uno de los destinos más atractivos del Perú y uno de los más interesantes en el continente: pocas ciudades tienen el privilegio de ubicarse a orillas de una maravilla de la naturaleza como el Lago Titicaca, el lago navegable más alto del mundo a más de 3800 msnm. <br> Puno es considerada como la Capital Folklórica del Perú y de América, Puno es inmensamente rica en danzas, música, costumbres y leyendas, sus danzas superan las 350. Puno es célebre por lo variado y colorido de su folklore, sin duda el más rico y deslumbrante del continente, cuya máxima expresión es la Fiesta de la Virgen de la Candelaria, que se realiza en febrero.</p>
-                <a href="#" class="btn btn-default btn-lg btn1">Màs</a>
+                <a href="#sobre-puno" class="btn btn-default btn-lg btn1">Màs</a>
             </div>
         </div>
 	

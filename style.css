@@ -1595,7 +1595,22 @@ img {
         display: none;
     }
 }
-/*--------------------------------------section Comentarios---------------------------------------*/
+/*-------------------------------------- Otros y @media---------------------------------------*/
+.navbar-brand_{
+    margin: 30px auto 80px;
+}
+.navbar-brand_ img{
+    height: 100px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle{
+    background: #f1d154;
+}
+.logoletra{
+    font-family: cursive;
+    font-size: 40px;
+    color: #f1d154;
+}
+
 @media screen and (min-width:992px){
     .navegador-menu{
         display:none;
