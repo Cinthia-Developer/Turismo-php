@@ -8,6 +8,7 @@
     
     <!--links of styles -->
     <link rel="stylesheet" href="<?php bloginfo("template_directory");?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php bloginfo("template_directory");?>/fonts/style.css">
     <link rel="stylesheet" href="<?php bloginfo("template_directory");?>/style.css">
 </head>
 
@@ -81,7 +82,7 @@
 	</section>
 <!--==============================content=================================-->
     <div id="content">
-        <!--==============================row1=================================-->
+    <!--==============================row1=================================-->
         <div class="row_1">
             <div class="container">
                 <p class="title1">Bienvenidos!</p>
@@ -90,99 +91,98 @@
             </div>
         </div>
 	
-<!-----------------------------------------------------section documental---------------------------------------------------->
-	<section id="sobre-puno">
-	    <div class="container">
-	        <h2 class="text-center">Sobre Puno</h2><br>
-	        <div class="row">
-	            <div class="col-md-6">
-	                <p>
-Se emplaza sobre la meseta andina, la ciudad de Puno está dominada por la presencia del Lago Titicaca, lugar sagrado de los incas y poblado de islas naturales y artificiales del Perú. Puno posee sitios que atraen el turismo cada año con arqueológicos prehispánicos de construcciones circulares llamadas desde su origen chullpas. Sus iglesias se caracterizan por una marcada arquitectura colonial. Es un pueblo orgulloso de su pasado quechua y aymara de tradición folclórica que se desborda cada año en danzas y ritos durante la Festividad Virgen María de la Candelaria. <br>
-Puno es leyenda, fiesta multicolor, poblado de islas naturales y artificiales <br>
-Ubicación: Se ubica en la sierra sur del Perú, comparte frontera con Bolivia. Tiene un relieve básicamente plano debido a que buena parte del territorio se encuentra en la meseta del Collao.</p>
-	            </div><!--cierre de col-md-6-->
-	            
-	            <div class="col-md-6">
-                    <iframe width="100%" height="270px" src="https://www.youtube.com/embed/LxXNBlf390A" frameborder="0" allowfullscreen></iframe>
-	                
-	            </div><!--cierre de col-md-6-->
-	        </div><!--cierre de row--> <br>
-	        <div class="row">
-	            <div class="col-md-12">
-	                <iframe  src="https://www.youtube.com/embed/mH4Dc9TNPBo?ecver=1" width="100%" height="350px;" frameborder="0" allowfullscreen></iframe>
-	            </div>
-	        </div><!--cierre de row-->
-	    </div><!--cierre de container-->
-	</section>
-
-<!--==============================row2=================================-->
-    <section id="destinos">
-        <div class="row_2">
-            <div class="container"><br>
-               <p class="title1">Destinos</p><br>
+<!-----------------------------section documental----------------------------------------->
+        <section id="sobre-puno">
+            <div class="container">
+                <h2 class="text-center">Sobre Puno</h2><br>
                 <div class="row">
-                    <ul class="list1">
-                        <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
-                            <div class="box1">
-                                <a href="https://es.wikipedia.org/wiki/Sillustani">
-                                    <figure><img src="<?php bloginfo("template_directory");?>/images/sillustani.jpg" alt=""></figure>
-                                    <p>Sillustani</p>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="col-lg-4 col-md-4 col-sm-4 listbox2">
-                            <div class="box2">
-                                <a href="https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_San_Carlos_Borromeo_(Puno)">
-                                    <figure><img src="<?php bloginfo("template_directory");?>/images/catedral-noche.jpg" alt=""></figure>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="col-lg-4 col-md-4 col-sm-4 listbox3">
-                            <div class="box3">
-                                <a href="http://www.peruenvideos.com/mirador-kuntur-wasi-puno/">
-                                    <figure><img src="<?php bloginfo("template_directory");?>/images/condor.jpg" alt=""></figure>
-                                    <p>Mirador</p>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="col-md-6">
+                        <p>
+    Se emplaza sobre la meseta andina, la ciudad de Puno está dominada por la presencia del Lago Titicaca, lugar sagrado de los incas y poblado de islas naturales y artificiales del Perú. Puno posee sitios que atraen el turismo cada año con arqueológicos prehispánicos de construcciones circulares llamadas desde su origen chullpas. Sus iglesias se caracterizan por una marcada arquitectura colonial. Es un pueblo orgulloso de su pasado quechua y aymara de tradición folclórica que se desborda cada año en danzas y ritos durante la Festividad Virgen María de la Candelaria. <br>
+    Puno es leyenda, fiesta multicolor, poblado de islas naturales y artificiales <br>
+    Ubicación: Se ubica en la sierra sur del Perú, comparte frontera con Bolivia. Tiene un relieve básicamente plano debido a que buena parte del territorio se encuentra en la meseta del Collao.</p>
+                    </div><!--cierre de col-md-6-->
 
-                    <ul class="list1" style="margin-top:50px">
-                        <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
-                            <div class="box3">
-                                <a href="https://es.wikipedia.org/wiki/Taquile">
-                                    <figure><img src="<?php bloginfo("template_directory");?>/images/taquile.jpg" alt=""></figure>
-                                    <p>Sillustani</p>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="col-lg-4 col-md-4 col-sm-4 listbox2">
-                            <div class="box2">
-                                <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Juan_Bautista_(Puno)">
-                                    <figure><img src="<?php bloginfo("template_directory");?>/images/iglesia.jpg" alt=""></figure>
-                                    <p>Iglesia San Juan</p>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="col-lg-4 col-md-4 col-sm-4 listbox3">
-                            <div class="box1">
-                                <a href="https://es.wikipedia.org/wiki/Etnias_urus">
-                                    <figure><img src="<?php bloginfo("template_directory");?>/images/islauros.jpg" alt=""></figure>
-                                    <p>Mirador</p>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="col-md-6">
+                        <iframe width="100%" height="270px" src="https://www.youtube.com/embed/LxXNBlf390A" frameborder="0" allowfullscreen></iframe>
+
+                    </div><!--cierre de col-md-6-->
+                </div><!--cierre de row--> <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <iframe  src="https://www.youtube.com/embed/mH4Dc9TNPBo?ecver=1" width="100%" height="350px;" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div><!--cierre de row-->
+            </div><!--cierre de container-->
+        </section>
+
+    <!--==============================row2=================================-->
+        <section id="destinos">
+            <div class="row_2">
+                <div class="container"><br>
+                   <p class="title1">Destinos</p><br>
+                    <div class="row">
+                        <ul class="list1">
+                            <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
+                                <div class="box1">
+                                    <a href="https://es.wikipedia.org/wiki/Sillustani">
+                                        <figure><img src="<?php bloginfo("template_directory");?>/images/sillustani.jpg" alt=""></figure>
+                                        <p>Sillustani</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-4 col-sm-4 listbox2">
+                                <div class="box2">
+                                    <a href="https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_San_Carlos_Borromeo_(Puno)">
+                                        <figure><img src="<?php bloginfo("template_directory");?>/images/catedral-noche.jpg" alt=""></figure>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-4 col-sm-4 listbox3">
+                                <div class="box3">
+                                    <a href="http://www.peruenvideos.com/mirador-kuntur-wasi-puno/">
+                                        <figure><img src="<?php bloginfo("template_directory");?>/images/condor.jpg" alt=""></figure>
+                                        <p>Mirador</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="list1" style="margin-top:50px">
+                            <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
+                                <div class="box3">
+                                    <a href="https://es.wikipedia.org/wiki/Taquile">
+                                        <figure><img src="<?php bloginfo("template_directory");?>/images/taquile.jpg" alt=""></figure>
+                                        <p>Isla de Taquile</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-4 col-sm-4 listbox2">
+                                <div class="box2">
+                                    <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Juan_Bautista_(Puno)">
+                                        <p>Iglesia San Juan</p>
+                                        <figure><img src="<?php bloginfo("template_directory");?>/images/iglesia.jpg" alt=""></figure>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-4 col-sm-4 listbox3">
+                                <div class="box1">
+                                    <a href="https://es.wikipedia.org/wiki/Etnias_urus">
+                                        <figure><img src="<?php bloginfo("template_directory");?>/images/islauros.jpg" alt=""></figure>
+                                        <p>Isla de Uros</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </div>   
-    </section>
+            </div>   
+        </section>
     </div>
 <!--==============================Comentarios=================================-->
     <section id="comentar">
         
     </section>
-        
 <!--==============================footer=================================-->
     <footer id="contactanos">
         <div class="container">
@@ -193,8 +193,17 @@ Ubicación: Se ubica en la sierra sur del Perú, comparte frontera con Bolivia. 
                     telef: 963928262
                 </div><!--cierre de col-md-6-->
                    
-                <div class="col-md-4 col-md-offset-2">
-                    Copyright © 2017 Cinthia
+                <div class="col-md-4 col-md-offset-2 text-right">
+                    Copyright © 2017 Cinthia <br><br>
+                    <a href="https://www.linkedin.com/in/cinthia-mashiel-churata-ito-418557138" target="_blank">
+                        <span class="icon-linkedin"></span>
+                    </a>
+                    <a href="https://github.com/Cinthia-Mashiel">
+                        <span class="icon-github"></span>
+                    </a>
+                    <a href="https://www.facebook.com/Cinthia.Mashiel.Jatnnfcxx">
+                    <span class="icon-facebook"></span>
+                    </a>
                 </div><!--cierre de col-4-->
             </div><!--cierre de row-->
         </div><!--cierre de container-->
