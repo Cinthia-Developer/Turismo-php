@@ -126,21 +126,31 @@
                     $destinos->have_posts();
                     $destinos->the_post();
                         
-                ?>
+            ?>
             <div class="row_2">
                 <div class="container"><br>
                    <p class="title1"> <?php the_title() ?></p><br>
                    <div class="title2"> <?php the_content() ?></div>
                     <div class="row">
+                       <?php 
+                            $hijos = new WP_Query(array("post_parent" => $destinos->get_the_ID()));
+                        
+                    ?>
                         <ul class="list1">
+                           <?php  while($hijos->have_posts()){
+                            $hijos->the_post();
+                            ?>
                             <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
                                 <div class="box1">
                                     <a href="https://es.wikipedia.org/wiki/Sillustani">
                                         <figure><img src="<?php bloginfo("template_directory");?>/images/sillustani.jpg" alt=""></figure>
-                                        <p>Sillustani</p>
+                                        <p><?php the_title() ?></p>
                                     </a>
                                 </div>
                             </li>
+                            
+                            <?php } ?>
+                            
                             <li class="col-lg-4 col-md-4 col-sm-4 listbox2">
                                 <div class="box2">
                                     <a href="https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_San_Carlos_Borromeo_(Puno)">
@@ -196,6 +206,12 @@
 <!--==============================footer=================================-->
     <footer id="contactanos">
         <div class="container">
+           <?php 
+                    $contactanos = new WP_Query(array("pagename" => "contactanos"));
+                    $contactanos->have_posts();
+                    $contactanos->the_post();
+                        
+            ?>
             <div class="row">
                 <div class="col-md-6">
                     Escribenos a: <br>
