@@ -93,7 +93,7 @@
         <section id="sobre-puno">
             <div class="container">
                <?php 
-                    $sobre_puno = new WP_Query(array("name" => "sobre-puno"));
+                    $sobre_puno = new WP_Query(array("pagename" => "sobre-puno"));
                     $sobre_puno->have_posts();
                     $sobre_puno->the_post();
                         
