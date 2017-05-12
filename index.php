@@ -88,6 +88,7 @@
                 <a href="#sobre-puno" class="btn btn-default btn-lg btn1">Màs</a>
             </div>
         </div>
+    </div>   
 <!--==============================Seccion =================================-->
         <section id="sobre-puno">
             <div class="container">
@@ -118,6 +119,7 @@
             </div><!--cierre de container-->
         </section>
 <!--==============================row2=================================-->
+    <div id="content">
         <section id="destinos">
             <div class="row_2">
                 <div class="container"><br>
