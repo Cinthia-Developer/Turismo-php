@@ -92,8 +92,8 @@
         <section id="sobre-puno">
             <div class="container">
                <?php 
-                    $sobre-puno = new WP_Query(array("name" => "sobre-puno"));
-                    $sobre-puno->the_post();
+                    $sobre_puno = new WP_Query(array("name" => "sobre-puno"));
+                    $sobre_puno->the_post();
                         
                 ?>
                 <h2 class="text-center"><?php the_title() ?></h2><br>
