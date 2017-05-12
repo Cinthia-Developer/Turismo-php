@@ -133,7 +133,7 @@
                    <div class="title2"> <?php the_content() ?></div>
                     <div class="row">
                        <?php 
-                            $hijos = new WP_Query(array("post_parent" => $destinos->get_the_ID()));
+                            $hijos = new WP_Query(array("post_parent" => get_the_ID()));
                         
                     ?>
                         <ul class="list1">
