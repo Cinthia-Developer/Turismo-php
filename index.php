@@ -129,13 +129,12 @@
             ?>
             <div class="row_2">
                 <div class="container"><br>
-                   <p class="title1"> <?php the_title() ?></p><br>
+                   <p class="title1"> <?php echo get_the_ID(); the_title() ?></p><br>
                    <div class="title2"> <?php the_content() ?></div>
                     <div class="row">
-                       <?php 
-                            $hijos = new WP_Query(array("post_type"=> "page", "post_parent" => $destinos->get_the_ID()));
-                        
-                    ?>
+                <?php
+                    $hijos = new WP_Query(array("post_type"=> "page", "post_parent" => get_the_ID()));
+                ?>
                         <ul class="list1">
                            <?php  while($hijos->have_posts()){
                             $hijos->the_post();
