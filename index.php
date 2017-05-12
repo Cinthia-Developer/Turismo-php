@@ -94,6 +94,7 @@
                <?php 
                     $sobre_puno = new WP_Query(array("name" => "sobre-puno"));
                     $sobre_puno->the_post();
+                    $sobre_puno->have_posts();
                         
                 ?>
                 <h2 class="text-center"><?php the_title() ?></h2><br>
