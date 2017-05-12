@@ -129,7 +129,7 @@
             ?>
             <div class="row_2">
                 <div class="container"><br>
-                   <p class="title1"> <?php echo get_the_ID(); the_title() ?></p><br>
+                   <p class="title1"> <?php  the_title() ?></p><br>
                    <div class="title2"> <?php the_content() ?></div>
                     <div class="row">
                 <?php
@@ -142,7 +142,7 @@
                             <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
                                 <div class="box1">
                                     <a href="https://es.wikipedia.org/wiki/Sillustani">
-                                        <figure><?php the_post_thumbnail() ?></figure>
+                                        <figure><img src="<?php echo the_post_thumbnail_url()?>" alt=""></figure>
                                         <p><?php the_title() ?></p>
                                     </a>
                                 </div>
