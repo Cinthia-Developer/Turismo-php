@@ -142,14 +142,14 @@
                             <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
                                 <div class="box1">
                                     <a href="https://es.wikipedia.org/wiki/Sillustani">
-                                        <figure><img src="<?php bloginfo("template_directory");?>/images/sillustani.jpg" alt=""></figure>
+                                        <figure><?php the_post_thumbnail() ?></figure>
                                         <p><?php the_title() ?></p>
                                     </a>
                                 </div>
                             </li>
                             
                             <?php } ?>
-                            
+                           <!-- 
                             <li class="col-lg-4 col-md-4 col-sm-4 listbox2">
                                 <div class="box2">
                                     <a href="https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_San_Carlos_Borromeo_(Puno)">
@@ -192,6 +192,7 @@
                                     </a>
                                 </div>
                             </li>
+                            -->
                         </ul>
                     </div>
                 </div>
