@@ -91,10 +91,17 @@
 <!--==============================Seccion Documental=================================-->
         <section id="sobre-puno">
             <div class="container">
-                <h2 class="text-center">Sobre Puno</h2><br>
+               <?php 
+                    $sobre-puno = new WP_Query(["name" => "sobre-puno"]);
+                    $sobre-puno->the_post();
+                        
+                ?>
+                <h2 class="text-center"><?php the_title() ?></h2><br>
                 <div class="row">
                     <div class="col-md-6">
-                        <p>Se emplaza sobre la meseta andina, la ciudad de Puno está dominada por la presencia del Lago Titicaca, lugar sagrado de los incas y poblado de islas naturales y artificiales del Perú. Puno posee sitios que atraen el turismo cada año con arqueológicos prehispánicos de construcciones circulares llamadas desde su origen chullpas. Sus iglesias se caracterizan por una marcada arquitectura colonial. Es un pueblo orgulloso de su pasado quechua y aymara de tradición folclórica que se desborda cada año en danzas y ritos durante la Festividad Virgen María de la Candelaria. <br> Puno es leyenda, fiesta multicolor, poblado de islas naturales y artificiales <br> Ubicación: Se ubica en la sierra sur del Perú, comparte frontera con Bolivia. Tiene un relieve básicamente plano debido a que buena parte del territorio se encuentra en la meseta del Collao.</p>
+                        <div>
+                            <?php the_content() ?> 
+                        </div>
                     </div><!--cierre de col-md-6-->
 
                     <div class="col-md-6">
