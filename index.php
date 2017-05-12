@@ -121,9 +121,16 @@
 <!--==============================row2=================================-->
     <div id="content">
         <section id="destinos">
+           <?php 
+                    $destinos = new WP_Query(array("pagename" => "destinos"));
+                    $destinos->have_posts();
+                    $destinos->the_post();
+                        
+                ?>
             <div class="row_2">
                 <div class="container"><br>
-                   <p class="title1">Destinos</p><br>
+                   <p class="title1"> <?php the_title() ?></p><br>
+                   <div class="title2"> <?php the_content() ?></div>
                     <div class="row">
                         <ul class="list1">
                             <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
