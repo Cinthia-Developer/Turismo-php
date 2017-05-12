@@ -133,7 +133,7 @@
                    <div class="title2"> <?php the_content() ?></div>
                     <div class="row">
                        <?php 
-                            $hijos = new WP_Query(array("post_parent" => get_the_ID()));
+                            $hijos = new WP_Query(array("post_type"=> "page", "post_parent" => $destinos->get_the_ID()));
                         
                     ?>
                         <ul class="list1">
@@ -144,7 +144,7 @@
                                 <div class="box1">
                                     <a href="https://es.wikipedia.org/wiki/Sillustani">
                                         <figure><img src="<?php bloginfo("template_directory");?>/images/sillustani.jpg" alt=""></figure>
-                                        <p><?php the_title() ?></p>
+                                        <p><?php the_title()</p>
                                     </a>
                                 </div>
                             </li>
