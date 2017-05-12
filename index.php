@@ -144,7 +144,7 @@
                                 <div class="box1">
                                     <a href="https://es.wikipedia.org/wiki/Sillustani">
                                         <figure><img src="<?php bloginfo("template_directory");?>/images/sillustani.jpg" alt=""></figure>
-                                        <p><?php the_title()</p>
+                                        <p><?php the_title() ?></p>
                                     </a>
                                 </div>
                             </li>
