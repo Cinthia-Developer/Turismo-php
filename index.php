@@ -1,3 +1,4 @@
+<?php  the_post()?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,7 +84,7 @@
         <div class="row_1">
             <div class="container">
                 <p class="title1"><?php the_title() ?></p>
-                <p class="title2">Puno es sin lugar a dudas uno de los destinos más atractivos del Perú y uno de los más interesantes en el continente: pocas ciudades tienen el privilegio de ubicarse a orillas de una maravilla de la naturaleza como el Lago Titicaca, el lago navegable más alto del mundo a más de 3800 msnm. <br> Puno es considerada como la Capital Folklórica del Perú y de América, Puno es inmensamente rica en danzas, música, costumbres y leyendas, sus danzas superan las 350. Puno es célebre por lo variado y colorido de su folklore, sin duda el más rico y deslumbrante del continente, cuya máxima expresión es la Fiesta de la Virgen de la Candelaria, que se realiza en febrero.</p>
+                <div class="title2"><?php the_content() ?></div>
                 <a href="#sobre-puno" class="btn btn-default btn-lg btn1">Màs</a>
             </div>
         </div>
