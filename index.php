@@ -141,7 +141,7 @@
                             ?>
                             <li class="col-lg-4 col-md-4 col-sm-4 listbox1">
                                 <div class="box1">
-                                    <a href="<?php the_excerpt()?>">
+                                    <a href="<?php echo strip_tags(get_the_excerpt()); ?>">
                                         <figure><img src="<?php echo the_post_thumbnail_url()?>" height="100px" alt=""></figure>
                                         <p><?php the_title() ?></p>
                                     </a>
