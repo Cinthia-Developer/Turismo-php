@@ -1610,6 +1610,10 @@ img {
     font-size: 40px;
     color: #f1d154;
 }
+.box1 figure img{
+    height: 200px;
+    margin: 5px auto;
+}
 
 @media screen and (min-width:992px){
     .navegador-menu{
